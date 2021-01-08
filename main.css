@@ -5,4 +5,32 @@ html{
 
 body{
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color:white;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.player1, .player2 {
+    margin:1px solid black;
+    color: white;
+    background-color: rgb(216, 193, 64);
+    
+}
+
+.image-opponent{
+    width:200px;
+}
+.allStats2{
+    visibility: hidden;
 }
