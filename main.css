@@ -20,17 +20,39 @@ h1{
     flex-direction: row;
     align-items: center;
 }
-
-.player1, .player2 {
-    margin:1px solid black;
-    color: white;
-    background-color: rgb(216, 193, 64);
+.playername{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.player1, .player2{
+    margin: 10vh;
     
+}
+
+.card1, .card2 {
+    margin:1px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 220, 154);
+    padding: 10px;
+    
+}
+
+.name{
+    background-color: rgb(216, 177, 94);
+    font-weight: bold;
 }
 
 .image-opponent{
     width:200px;
 }
+.allStats, .allStats2{
+    background-color: rgb(216, 177, 94);
+}
 .allStats2{
-    visibility: hidden;
+    display: none;    
+}
+
+.totalCards1, .totalCards2{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
 }
